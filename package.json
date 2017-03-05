@@ -1,0 +1,25 @@
+{
+  "name": "@theoryofnekomata/scaffolding",
+  "version": "0.1.0",
+  "description": "Useful Sass functions and utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temoto-kun/scaffolding.git"
+  },
+  "keywords": [
+    "sass",
+    "styling",
+    "front-end",
+    "utilities"
+  ],
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com> (https://temoto-kun.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Temoto-kun/scaffolding/issues"
+  },
+  "homepage": "https://github.com/Temoto-kun/scaffolding#readme"
+}

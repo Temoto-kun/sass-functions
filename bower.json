@@ -1,0 +1,23 @@
+{
+  "name": "sass-scaffolding",
+  "description": "Useful Sass functions and utilities.",
+  "main": "index.js",
+  "authors": [
+    "TheoryOfNekomata <allan.crisostomo@outlook.com> (https://temoto-kun.github.io/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "styling",
+    "front-end",
+    "utilities"
+  ],
+  "homepage": "https://github.com/Temoto-kun/scaffolding",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

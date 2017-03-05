@@ -1,0 +1,26 @@
+/**
+ * Functions for maps.
+ * @author TheoryOfNekomata
+ * @date 2017-01-28
+ */
+
+/**
+ * Performs a deep get in the map.
+ * @param map The map.
+ * @param keys The dot-delimited keys to get the value in the map.
+ * @returns The value of the map in the specified key.
+ */
+@function deep-get($map, $keys) {
+  $index: str-index($keys, '.');
+  $key: '';
+  $value: $map;
+
+  @while ($index != null) {
+    $key: str-slice($keys, 1, $index - 1);
+    $value: map-get($value, $key);
+    $keys: str-slice($keys, $index + 1);
+    $index: str-index($keys, '.');
+  }
+
+  @return map-get($value, $keys);
+}

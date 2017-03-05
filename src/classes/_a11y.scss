@@ -1,0 +1,14 @@
+/**
+ * Classes for accessibility.
+ * @author TheoryOfNekomata
+ * @date 2017-01-27
+ */
+
+/**
+ * Class for restricting the visibility of the element to screen-readers.
+ */
+._sr-only {
+  position: absolute;
+  top: -999999px;
+  left: -999999px;
+}
