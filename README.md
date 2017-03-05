@@ -26,7 +26,7 @@ In Bower
 
 Using classes:
 
-```sass
+```scss
 @import "~/classes/presentation";
 @import "~/classes/a11y";
 
@@ -43,7 +43,7 @@ Using classes:
 
 Using functions:
 
-```sass
+```scss
 @import "~/functions/maps";
 
 $map = (a: (b: (c: 'Hello world'))); // complex map
