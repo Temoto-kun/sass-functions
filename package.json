@@ -1,5 +1,6 @@
 {
   "name": "@theoryofnekomata/scaffolding",
+  "title": "Scaffolding",
   "version": "0.1.2",
   "description": "Useful Sass functions and utilities.",
   "main": "index.js",
@@ -21,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/Temoto-kun/scaffolding/issues"
   },
-  "homepage": "https://github.com/Temoto-kun/scaffolding#readme"
+  "homepage": "https://temoto-kun.github.io/scaffolding/"
 }
