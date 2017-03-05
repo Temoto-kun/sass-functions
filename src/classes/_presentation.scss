@@ -1,13 +1,12 @@
-/**
- * Classes for specifying how elements are presented in the page.
- * @author TheoryOfNekomata
- * @date 2017-01-27
- */
+////
+/// @author TheoryOfNekomata
+////
 
-/**
- * Class for clearfix.
- */
-._clearfix {
+///
+/// Class for clearfix.
+/// @group classes-presentation
+///
+%clearfix {
   &::before, &::after {
     content: ' ';
     display: table;

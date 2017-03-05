@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "classes-a11y": "Accessibility",
+    "classes-optimization": "Optimizations",
+    "classes-presentation": "Presentation",
+    "classes-typography": "Typography",
+    "functions-maps": "Maps"
+  },
+  "dest": "docs"
+}

@@ -63,6 +63,9 @@ $map = (a: (b: (c: 'Hello world'))); // complex map
 The classes use [rstacruz's rscss paradigm](https://github.com/rstacruz/rscss) in order for all of them to become manageable
 and compact.
 
+Docs should be built once there are changes to the codebase. Please run `npm run build:docs`. You may need to install
+[`sassdoc`](http://sassdoc.com) first.
+
 ## License
 
 MIT. See [LICENSE file](https://github.com/Temoto-kun/scaffolding/blob/master/LICENSE) for details.

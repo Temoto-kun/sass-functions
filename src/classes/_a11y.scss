@@ -1,14 +1,13 @@
-/**
- * Classes for accessibility.
- * @author TheoryOfNekomata
- * @date 2017-01-27
- */
+////
+/// @author TheoryOfNekomata
+////
 
-/**
- * Class for restricting the visibility of the element to screen readers.
- * @see http://a11yproject.com/posts/how-to-hide-content
- */
-._sr-only {
+///
+/// Class for restricting the visibility of the element to screen readers.
+/// @group classes-a11y
+/// @link http://a11yproject.com/posts/how-to-hide-content
+///
+%sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -19,11 +18,13 @@
   border: 0;
 }
 
-/**
- * Class for making the element focusable on screen readers.
- * @see https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
- */
-._sr-only-focusable {
+///
+/// Class for making the element focusable on screen readers.
+/// @group classes-a11y
+/// @link https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+/// @see sr-only
+///
+%sr-only-focusable {
   &:active,
   &:focus {
     position: static;

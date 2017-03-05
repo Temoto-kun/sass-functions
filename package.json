@@ -4,7 +4,7 @@
   "description": "Useful Sass functions and utilities.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:docs": "sassdoc src"
   },
   "repository": {
     "type": "git",

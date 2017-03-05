@@ -1,13 +1,12 @@
-/**
- * Classes for optimizing rendering in browsers.
- * @author TheoryOfNekomata
- * @date 2017-02-21
- */
+////
+/// @author TheoryOfNekomata
+////
 
-/**
- * Class for improving the scrolling in Chrome (resolves the repaint on scroll issue).
- */
-._scrollable {
+///
+/// Class for improving the scrolling in Chrome (resolves the repaint on scroll issue).
+/// @group classes-optimization
+///
+%scrollable {
   transform: translate3d(0,0,0);
   will-change: transform;
 }

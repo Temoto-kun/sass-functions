@@ -1,62 +1,68 @@
-/**
- * Classes for typography and text formatting.
- * @author TheoryOfNekomata
- * @date 2017-03-05
- */
+////
+/// @author TheoryOfNekomata
+////
 
-/**
- * Justifies the text horizontally.
- */
-._text-justified {
+///
+/// Justifies the text horizontally.
+/// @group classes-typography
+///
+%text-justified {
   text-align: justify !important;
 }
 
-/**
- * Aligns the text horizontally to the center.
- */
-._text-centered {
+///
+/// Aligns the text horizontally to the center.
+/// @group classes-typography
+///
+%text-centered {
   text-align: center !important;
 }
 
-/**
- * Aligns the text to the right.
- */
-._text-right {
+///
+/// Aligns the text to the right.
+/// @group classes-typography
+///
+%text-right {
   text-align: right !important;
 }
 
-/**
- * Aligns the text to the left.
- */
-._text-left {
+///
+/// Aligns the text to the left.
+/// @group classes-typography
+///
+%text-left {
   text-align: left !important;
 }
 
-/**
- * Sets the text to uppercase.
- */
-._text-uppercase {
+///
+/// Sets the text to uppercase.
+/// @group classes-typography
+///
+%text-uppercase {
   text-transform: uppercase !important;
 }
 
-/**
- * Sets the text to lowercase.
- */
-._text-lowercase {
+///
+/// Sets the text to lowercase.
+/// @group classes-typography
+///
+%text-lowercase {
   text-transform: lowercase !important;
 }
 
-/**
- * Capitalizes every first letter of the text.
- */
-._text-capitalize {
+///
+/// Capitalizes every first letter of the text.
+/// @group classes-typography
+///
+%text-capitalize {
   text-transform: capitalize !important;
 }
 
-/**
- * Truncates the text and puts and ellipsis when the element overflows.
- */
-._text-truncate {
+///
+/// Truncates the text and puts and ellipsis when the element overflows.
+/// @group classes-typography
+///
+%text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
