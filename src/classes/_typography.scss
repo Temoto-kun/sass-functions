@@ -1,0 +1,63 @@
+/**
+ * Classes for typography and text formatting.
+ * @author TheoryOfNekomata
+ * @date 2017-03-05
+ */
+
+/**
+ * Justifies the text horizontally.
+ */
+._text-justified {
+  text-align: justify !important;
+}
+
+/**
+ * Aligns the text horizontally to the center.
+ */
+._text-centered {
+  text-align: center !important;
+}
+
+/**
+ * Aligns the text to the right.
+ */
+._text-right {
+  text-align: right !important;
+}
+
+/**
+ * Aligns the text to the left.
+ */
+._text-left {
+  text-align: left !important;
+}
+
+/**
+ * Sets the text to uppercase.
+ */
+._text-uppercase {
+  text-transform: uppercase !important;
+}
+
+/**
+ * Sets the text to lowercase.
+ */
+._text-lowercase {
+  text-transform: lowercase !important;
+}
+
+/**
+ * Capitalizes every first letter of the text.
+ */
+._text-capitalize {
+  text-transform: capitalize !important;
+}
+
+/**
+ * Truncates the text and puts and ellipsis when the element overflows.
+ */
+._text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

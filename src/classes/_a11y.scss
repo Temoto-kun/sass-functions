@@ -5,10 +5,32 @@
  */
 
 /**
- * Class for restricting the visibility of the element to screen-readers.
+ * Class for restricting the visibility of the element to screen readers.
+ * @see http://a11yproject.com/posts/how-to-hide-content
  */
 ._sr-only {
   position: absolute;
-  top: -999999px;
-  left: -999999px;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/**
+ * Class for making the element focusable on screen readers.
+ * @see https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+ */
+._sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
 }
