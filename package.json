@@ -1,6 +1,6 @@
 {
   "name": "@theoryofnekomata/scaffolding",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Useful Sass functions and utilities.",
   "main": "index.js",
   "scripts": {
